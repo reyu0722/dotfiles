@@ -120,6 +120,9 @@ fi
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
 
+# add path
+export PATH=$PATH:$HOME/.asdf/installs/golang/1.19.1/packages/bin
+
 # exec fish
 case $- in
     *i*) exec fish;;

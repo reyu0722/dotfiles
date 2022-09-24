@@ -5,3 +5,5 @@
 	- upgrade
 - asdf
 - fish
+- go
+  - ghq
