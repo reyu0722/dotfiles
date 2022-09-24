@@ -8,6 +8,6 @@
       - powerline-shell
     state: latest
 - name: Install theme
-  shell: fisher install oh-my-fish/theme-clearance
+  shell: fisher install oh-my-fish/theme-gnuykeaj
   args:
     executable: /bin/fish
