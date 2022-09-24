@@ -1,6 +1,12 @@
 - hosts: localhost
   connection: local
   tasks:
+    - import_tasks: file.yml
+      tags:
+        - file
+    - import_tasks: asdf.yml
+      tags:
+        - asdf
     - import_tasks: apt.yml
       tags:
         - apt

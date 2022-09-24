@@ -1,0 +1,9 @@
+- name: link files
+  copy:
+    src: files/{{ item.src }}
+    dest: ~/{{ item.dest }}
+    force: yes
+    follow: no
+  loop:
+    - src: bashrc
+      dest: .bashrc
