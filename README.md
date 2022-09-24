@@ -1,1 +1,5 @@
 # dotfiles
+
+- apt
+  - update
+	- upgrade
