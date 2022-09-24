@@ -8,6 +8,9 @@
       - powerline-shell
     state: latest
 - name: Install theme
-  shell: fisher install oh-my-fish/theme-gnuykeaj
+  shell: fisher install {{ item.name }}
   args:
     executable: /bin/fish
+  loop:
+    - name: oh-my-fish/theme-gnuykeaj
+    - name: jethrokuan/fzf

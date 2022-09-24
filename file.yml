@@ -7,3 +7,5 @@
   loop:
     - src: bashrc
       dest: .bashrc
+      src: config.fish
+      dest: .config/fish/config.fish

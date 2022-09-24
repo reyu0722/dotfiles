@@ -13,3 +13,4 @@
   apt:
     name:
       - fish
+      - fzf
