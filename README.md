@@ -1,9 +1,8 @@
 # dotfiles
 
 - apt
-  - update
+	- update
 	- upgrade
 - asdf
 - fish
 - go
-  - ghq
