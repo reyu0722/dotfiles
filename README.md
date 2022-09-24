@@ -4,3 +4,4 @@
   - update
 	- upgrade
 - asdf
+- fish

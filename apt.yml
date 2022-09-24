@@ -1,6 +1,15 @@
+- name: Add PPAs
+  become: yes
+  apt_repository:
+    repo: ppa:fish-shell/release-3
 - name: Update / Upgrade packages
   become: yes
   apt:
     state: latest
     update_cache: yes
     upgrade: yes
+- name: Install packages
+  become: yes
+  apt:
+    name:
+      - fish

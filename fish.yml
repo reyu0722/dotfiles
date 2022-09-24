@@ -1,0 +1,13 @@
+- name: Install fisher
+  shell: curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+  args:
+    executable: /bin/fish
+- name: Install powerline
+  pip:
+    name:
+      - powerline-shell
+    state: latest
+- name: Install theme
+  shell: fisher install oh-my-fish/theme-clearance
+  args:
+    executable: /bin/fish

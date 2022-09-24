@@ -119,3 +119,9 @@ fi
 # asdf settings
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
+
+# exec fish
+case $- in
+    *i*) exec fish;;
+      *) return;;
+esac

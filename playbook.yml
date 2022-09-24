@@ -10,3 +10,6 @@
     - import_tasks: apt.yml
       tags:
         - apt
+    - import_tasks: fish.yml
+      tags:
+        - fish
