@@ -7,10 +7,12 @@
     name:
       - powerline-shell
     state: latest
-- name: Install theme
+- name: Install plugins
   shell: fisher install {{ item.name }}
   args:
     executable: /bin/fish
   loop:
-    - name: oh-my-fish/theme-gnuykeaj
+    - name: reyu0722/plugin-vcs
+    - name: oh-my-fish/theme-chain
     - name: jethrokuan/fzf
+    - name: decors/fish-ghq
