@@ -122,6 +122,7 @@ fi
 
 # add path
 export PATH=$PATH:$HOME/.asdf/installs/golang/1.19.1/packages/bin
+export PATH=$PATH:$HOME/.cargo/bin
 
 # exec fish
 case $- in
